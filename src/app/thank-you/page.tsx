@@ -90,8 +90,7 @@ function buildWhatsAppURL(data: FunnelData): string {
   );
 
   const message = encodeURIComponent(lines.join("\n"));
-  // Replace with your actual WhatsApp number (country code + number, no dashes)
-  const whatsappNumber = "639XXXXXXXXX";
+  const whatsappNumber = "639058429200";
   return `https://wa.me/${whatsappNumber}?text=${message}`;
 }
 
