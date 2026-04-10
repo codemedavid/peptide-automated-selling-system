@@ -262,7 +262,6 @@ export default function CheckoutPage() {
                 <p className="mt-1 text-xs text-zinc-400">
                   Send to: 09928214519
                 </p>
-                <p className="text-xs text-zinc-500">Account: PASS Admin</p>
               </div>
 
               {/* Maya */}
@@ -271,19 +270,6 @@ export default function CheckoutPage() {
                 <h3 className="font-bold text-white">Maya</h3>
                 <p className="mt-1 text-xs text-zinc-400">
                   Send to: 09928214519
-                </p>
-                <p className="text-xs text-zinc-500">Account: PASS Admin</p>
-              </div>
-
-              {/* Bank Transfer */}
-              <div className="rounded-xl border border-zinc-700 bg-zinc-800/50 p-5 text-center">
-                <div className="mb-2 text-3xl">&#127974;</div>
-                <h3 className="font-bold text-white">Bank Transfer</h3>
-                <p className="mt-1 text-xs text-zinc-400">
-                  BDO / BPI / UnionBank
-                </p>
-                <p className="text-xs text-zinc-500">
-                  Acct #: XXXX-XXXX-XXXX
                 </p>
               </div>
             </div>
