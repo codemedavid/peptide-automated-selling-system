@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 
@@ -259,7 +260,7 @@ export default function CheckoutPage() {
                 <div className="mb-2 text-3xl">&#128179;</div>
                 <h3 className="font-bold text-white">GCash</h3>
                 <p className="mt-1 text-xs text-zinc-400">
-                  Send to: 0917-XXX-XXXX
+                  Send to: 09928214519
                 </p>
                 <p className="text-xs text-zinc-500">Account: PASS Admin</p>
               </div>
@@ -269,7 +270,7 @@ export default function CheckoutPage() {
                 <div className="mb-2 text-3xl">&#128176;</div>
                 <h3 className="font-bold text-white">Maya</h3>
                 <p className="mt-1 text-xs text-zinc-400">
-                  Send to: 0917-XXX-XXXX
+                  Send to: 09928214519
                 </p>
                 <p className="text-xs text-zinc-500">Account: PASS Admin</p>
               </div>
@@ -288,19 +289,41 @@ export default function CheckoutPage() {
             </div>
 
             {/* QR Code Section */}
-            <div className="flex flex-col items-center rounded-xl border border-dashed border-zinc-700 bg-zinc-800/30 p-8">
-              <p className="mb-4 text-sm font-bold uppercase tracking-wider text-zinc-500">
+            <div className="rounded-xl border border-dashed border-zinc-700 bg-zinc-800/30 p-8">
+              <p className="mb-6 text-center text-sm font-bold uppercase tracking-wider text-zinc-500">
                 Scan QR Code to Pay
               </p>
-              <div className="mb-4 flex h-48 w-48 items-center justify-center rounded-2xl border-2 border-zinc-600 bg-white">
-                <div className="text-center text-zinc-400">
-                  <div className="text-4xl">&#9634;</div>
-                  <p className="mt-2 text-xs font-bold text-zinc-500">
-                    QR Code
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="rounded-2xl border border-zinc-700 bg-zinc-900/60 p-4">
+                  <p className="mb-3 text-center text-sm font-black uppercase tracking-[0.2em] text-[#ec4899]">
+                    GCash
                   </p>
+                  <div className="overflow-hidden rounded-2xl bg-white">
+                    <Image
+                      src="/gcash-qr.jpg"
+                      alt="GCash QR code for payment"
+                      width={400}
+                      height={710}
+                      className="h-auto w-full"
+                    />
+                  </div>
+                </div>
+                <div className="rounded-2xl border border-zinc-700 bg-zinc-900/60 p-4">
+                  <p className="mb-3 text-center text-sm font-black uppercase tracking-[0.2em] text-[#ec4899]">
+                    Maya
+                  </p>
+                  <div className="overflow-hidden rounded-2xl bg-white">
+                    <Image
+                      src="/maya-qr.jpg"
+                      alt="Maya QR code for payment"
+                      width={643}
+                      height={812}
+                      className="h-auto w-full"
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="text-center">
+              <div className="mt-6 text-center">
                 <p className="text-sm text-zinc-400">Amount to pay:</p>
                 <p className="text-3xl font-black text-[#ec4899]">
                   &#8369;{grandTotal.toLocaleString()}
