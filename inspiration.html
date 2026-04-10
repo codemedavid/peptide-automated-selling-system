@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;0,800;1,800&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-bright": "#f9f9f9",
+              "secondary-container": "#ffb55c",
+              "secondary": "#875200",
+              "on-tertiary-container": "#fffbff",
+              "secondary-fixed-dim": "#ffb866",
+              "background": "#ffffff",
+              "on-surface": "#1b1b1b",
+              "on-primary-container": "#fffbff",
+              "error": "#ba1a1a",
+              "on-tertiary-fixed": "#410004",
+              "primary": "#ff4d00",
+              "secondary-fixed": "#ffddba",
+              "on-tertiary-fixed-variant": "#930012",
+              "primary-fixed-dim": "#ffb59e",
+              "surface-container-low": "#f3f3f3",
+              "tertiary-fixed-dim": "#ffb3ad",
+              "outline": "#916f66",
+              "surface-container-highest": "#e2e2e2",
+              "primary-container": "#d53f00",
+              "on-error-container": "#93000a",
+              "surface-variant": "#e2e2e2",
+              "on-primary-fixed": "#3a0a00",
+              "on-error": "#ffffff",
+              "tertiary": "#b7141f",
+              "on-primary-fixed-variant": "#852400",
+              "on-surface-variant": "#5c4037",
+              "inverse-on-surface": "#f1f1f1",
+              "on-secondary": "#ffffff",
+              "tertiary-fixed": "#ffdad7",
+              "inverse-primary": "#ffb59e",
+              "surface-container": "#eeeeee",
+              "on-background": "#1b1b1b",
+              "primary-fixed": "#ffdbd0",
+              "on-primary": "#ffffff",
+              "surface": "#ffffff",
+              "surface-container-lowest": "#ffffff",
+              "tertiary-container": "#db3234",
+              "inverse-surface": "#303030",
+              "surface-dim": "#dadada",
+              "outline-variant": "#e6beb2",
+              "on-tertiary": "#ffffff",
+              "on-secondary-container": "#744600",
+              "surface-tint": "#ae3200",
+              "error-container": "#ffdad6",
+              "surface-container-high": "#e8e8e8",
+              "on-secondary-fixed": "#2b1700",
+              "on-secondary-fixed-variant": "#673d00"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Work Sans"],
+              "label": ["Plus Jakarta Sans"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-underline {
+            text-decoration: underline;
+            text-decoration-color: #ff4d00;
+            text-underline-offset: 8px;
+            text-decoration-thickness: 4px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Top Bar (Header) -->
+<header class="bg-black text-white py-4 px-6">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<div class="flex items-center gap-2">
+<div class="bg-white/10 p-2 rounded">
+<span class="material-symbols-outlined text-orange-500">science</span>
+</div>
+<div class="font-headline font-black italic text-xl tracking-tighter">PEPTIDE SELLER</div>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Team member" class="w-8 h-8 rounded-full border-2 border-black object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK8-qFrIWEu1yObgm_68KlYxj85trr9OIDK7udBUzhBTqjtdcIR3vWE43qwR-Wn5DbBYdFAN15mPa6hZjGBiA2aZxCBA1mLAFun9mlwv263Jg3kLX78eArsetRaru3rX4YNOjw64iPBmlVm0NaoeEM-osBhpzHNuyHBfVbi2Xe3Hl3bxdrJRoGyopaa5v3Duvp8dlkWABVNnAyf0durx7AFKaB7shr_kjhMXXUq0T3DDSHoZFM_u1F6ETEfkibPB_jldJEy54P1Oc"/>
+<img alt="Team member" class="w-8 h-8 rounded-full border-2 border-black object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt4sohuZuHH3KoV3D0BoiJoDaAbNaSb5He7pBL2KPIInURFO3_7qh48o0HIBkpiIqlS0hwJClNd_5Ai9aehBIcYjGYVrt5j6qczRjRGBR6B159lh--Yi8HGRc0GWKKH3QWCCFbh3kNwj13WZNY0BjybdtI_DCkMAKFMHy6zlN4qMg9UXZrzoK763OVnWMIXGV_MU2cv28b6QkED4rq6yGa55RJpItN1UQo2jonPBE7L7dLrwKMNFwkPTA34XIycdPAY_6mwsCxFhs"/>
+<img alt="Team member" class="w-8 h-8 rounded-full border-2 border-black object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbej7_MUJVWfiLVeqnqhfHySoW5Lva29hPPmtqizHi4fVIOxlEPRMuUaZjO3r0pIRHUVyLPc0wsWLF9IgHdA4Sl-J78ol-ll0I0foEYy5ASKK-jLq0tVZ8U9aUCp4Fo5LITBNAlRTenNpgRpG7oSJ24bgjKp7ApylZv6JcdXkXgFHfpc2OXx_FADmLQD_QZuFki_BjYXrA2fVqlnatbTVl5EfcY0qOblu3vcC0Oly9YlJGVCFIsGX-iragmwDwckWrjDYCwmOPKvY"/>
+</div>
+<div class="text-[10px] uppercase font-bold leading-none">
+<div class="flex text-yellow-400 mb-0.5">★★★★★</div>
+<div class="text-zinc-400">Trusted by top sellers &amp; entrepreneurs</div>
+</div>
+</div>
+<div class="text-center md:text-right">
+<p class="text-xs font-bold text-zinc-400">Need Help with your order?</p>
+<p class="text-sm font-black">support@peptideseller.ph</p>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="py-16 md:py-24 px-6 text-center">
+<div class="max-w-5xl mx-auto">
+<h1 class="font-headline text-4xl md:text-7xl font-extrabold leading-[1.1] mb-8">
+                Heto na ang <span class="text-primary">System Para sa Buyers</span> sa Loob ng <span class="hero-underline">24 Hours</span> <br class="hidden md:block"/>
+                Gamit ang Simpleng CRM at Isang Automated Bot
+            </h1>
+<p class="text-lg md:text-2xl font-bold italic mb-12 text-zinc-600 max-w-4xl mx-auto">
+                ...na gagawing pre-sold buyers ang mga strangers nang hindi mo kailangang mag-post araw-araw o mag-manual outreach 24/7.
+            </p>
+<!-- Collage Visual Mockup -->
+<div class="relative max-w-3xl mx-auto mb-16">
+<div class="relative z-10 flex justify-center">
+<div class="bg-white p-4 rounded-xl shadow-2xl border border-zinc-100 max-w-sm rotate-2 hover:rotate-0 transition-transform">
+<div class="flex items-center gap-3 mb-4">
+<img alt="Martin B." class="w-12 h-12 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt4sohuZuHH3KoV3D0BoiJoDaAbNaSb5He7pBL2KPIInURFO3_7qh48o0HIBkpiIqlS0hwJClNd_5Ai9aehBIcYjGYVrt5j6qczRjRGBR6B159lh--Yi8HGRc0GWKKH3QWCCFbh3kNwj13WZNY0BjybdtI_DCkMAKFMHy6zlN4qMg9UXZrzoK763OVnWMIXGV_MU2cv28b6QkED4rq6yGa55RJpItN1UQo2jonPBE7L7dLrwKMNFwkPTA34XIycdPAY_6mwsCxFhs"/>
+<div class="text-left">
+<p class="font-black text-sm">Martin B.</p>
+<p class="text-xs text-zinc-500">Peptide Reseller</p>
+</div>
+</div>
+<p class="text-sm font-bold text-left mb-2">"Nakabenta ng ₱75,000 package from my Automated System 3 days after launch."</p>
+<div class="flex text-orange-500 text-xs">★★★★★</div>
+</div>
+</div>
+<!-- Floating Elements -->
+<div class="absolute -left-4 top-1/2 -translate-y-1/2 hidden md:block bg-white p-3 rounded-lg shadow-xl border border-zinc-100 -rotate-6 z-0">
+<p class="text-[10px] font-black text-green-600 uppercase">NEW ORDER +₱5,400</p>
+<p class="text-[8px] text-zinc-400">14 minutes ago</p>
+</div>
+<div class="absolute -right-4 top-1/4 hidden md:block bg-white p-3 rounded-lg shadow-xl border border-zinc-100 rotate-6 z-0">
+<p class="text-[10px] font-black text-primary uppercase">QUERY ANSWERED BY AI</p>
+<p class="text-[8px] text-zinc-400">Just now</p>
+</div>
+</div>
+<p class="font-black text-lg mb-8 italic">&gt;&gt; Over ₱50M+ verified revenue generated by our users &lt;&lt;</p>
+<div class="max-w-2xl mx-auto">
+<button class="w-full bg-[#ff4d00] hover:bg-[#e64500] text-white py-6 px-8 rounded-lg shadow-[0_10px_0_0_#b33600] active:translate-y-1 active:shadow-none transition-all flex flex-col items-center justify-center gap-1">
+<span class="text-xl md:text-2xl font-black uppercase flex items-center gap-2">
+                        KUNIN ANG AUTOMATION SYSTEM FOR JUST ₱549 TODAY <span class="material-symbols-outlined font-black">arrow_circle_right</span>
+</span>
+<span class="text-xs md:text-sm font-bold opacity-90">Backed By Our 100% Satisfaction Guarantee</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Feature Bento Grid (Taglish) -->
+<section class="py-24 px-6 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-headline text-4xl font-extrabold mb-4">Ang Kumpletong Command Center</h2>
+<p class="text-on-surface-variant text-lg">Lahat ng kailangan mo para mag-scale nang hindi napa-praning.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Ordering -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:shadow-xl transition-all group border-b-4 border-transparent hover:border-primary">
+<div class="flex justify-between items-start mb-6">
+<div class="p-3 bg-primary-fixed rounded-lg text-on-primary-fixed-variant">
+<span class="material-symbols-outlined">shopping_cart</span>
+</div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant px-3 py-1 rounded-full text-xs font-bold uppercase">Smooth Flow</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-3">Intelligent Ordering System</h3>
+<p class="text-on-surface-variant mb-6">No-hassle checkout experience na designed para sa mga high-demand peptide business mo.</p>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-gradient-to-r from-secondary to-primary w-3/4"></div>
+</div>
+</div>
+<!-- FAQ -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:shadow-xl transition-all border-b-4 border-transparent hover:border-secondary">
+<div class="p-3 bg-secondary-fixed rounded-lg text-on-secondary-fixed-variant w-fit mb-6">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-3">AI-Powered FAQ Bot</h3>
+<p class="text-on-surface-variant">Sagutin ang common questions agad-agad. Bawasan ang support tickets hanggang 80% with our smart knowledge base.</p>
+</div>
+<!-- Calculator -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:shadow-xl transition-all border-b-4 border-transparent hover:border-primary-container">
+<div class="p-3 bg-primary-fixed rounded-lg text-on-primary-fixed-variant w-fit mb-6">
+<span class="material-symbols-outlined">calculate</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-3">Peptide Calculator</h3>
+<p class="text-on-surface-variant">Embedded reconstitution tools para may value agad ang customers mo and hindi na aalis sa site mo.</p>
+</div>
+<!-- Order Tracking -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:shadow-xl transition-all border-b-4 border-transparent hover:border-tertiary relative overflow-hidden">
+<div class="relative z-10">
+<div class="p-3 bg-tertiary-fixed rounded-lg text-on-tertiary-fixed-variant w-fit mb-6">
+<span class="material-symbols-outlined">local_shipping</span>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-3">Real-time Order Tracking</h3>
+<p class="text-on-surface-variant max-w-md">May instant updates ang mga buyers mo. Wala nang makulit na "Nasaan na ang order ko?" sa inbox mo.</p>
+</div>
+<div class="absolute -right-4 bottom-0 opacity-10">
+<span class="material-symbols-outlined text-[120px]">package</span>
+</div>
+</div>
+<!-- COA/Inventory -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:shadow-xl transition-all border-b-4 border-transparent hover:border-primary">
+<div class="flex gap-4 mb-6">
+<div class="p-3 bg-primary-fixed rounded-lg text-on-primary-fixed-variant">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div class="p-3 bg-secondary-fixed rounded-lg text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined">inventory</span>
+</div>
+</div>
+<h3 class="font-headline text-2xl font-bold mb-3">COA &amp; Inventory</h3>
+<p class="text-on-surface-variant">Automatic management ng Certificates of Analysis at stock levels para iwas-overload sa trabaho.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing/Offer Section (Taglish) -->
+<section class="py-24 px-6">
+<div class="max-w-4xl mx-auto bg-surface-container-lowest rounded-xl p-8 md:p-16 shadow-2xl relative border border-outline-variant/20">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-primary text-on-primary px-6 py-2 rounded-full font-headline font-black text-sm tracking-widest shadow-lg uppercase">
+                One-Time Investment Lang
+            </div>
+<div class="text-center mb-12">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold mb-6">Simulan na ang Automated Journey Mo</h2>
+<p class="text-on-surface-variant text-xl">Ang kumpletong engine, custom-built at naka-deploy na para sa brand mo.</p>
+</div>
+<div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
+<div class="text-center">
+<span class="text-zinc-400 line-through text-2xl">₱45,000</span>
+<div class="flex items-center justify-center">
+<span class="text-6xl md:text-8xl font-black text-primary font-headline tracking-tighter">9,899</span>
+<span class="text-primary font-bold text-2xl mt-4 ml-1">.00</span>
+</div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3 bg-secondary-container/20 text-on-secondary-container px-4 py-2 rounded-lg font-bold">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>Approved na Time-Saver</span>
+</div>
+<div class="flex items-center gap-3 bg-tertiary-fixed text-on-tertiary-fixed-variant px-4 py-2 rounded-lg font-bold">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">rocket_launch</span>
+<span>Best Value Choice</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-8 rounded-lg mb-12">
+<h4 class="font-headline font-bold mb-6 text-center text-primary-container uppercase tracking-widest">Kasama na sa Order Form</h4>
+<ul class="grid md:grid-cols-2 gap-4">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-medium">Custom Domain Integration</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-medium">Automated CRM Setup</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-medium">Inventory Syncing</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-medium">Payment Gateway Config</span>
+</li>
+</ul>
+</div>
+<button class="w-full bg-primary text-on-primary py-6 rounded-lg text-2xl font-headline font-black shadow-xl shadow-orange-900/20 hover:-translate-y-2 hover:shadow-2xl transition-all uppercase">
+                I-SET UP NA NATIN 'TO!
+            </button>
+</div>
+</section>
+<!-- Testimonials (Taglish) -->
+<section class="py-24 px-6 bg-surface-container-high/50">
+<div class="max-w-7xl mx-auto">
+<h2 class="font-headline text-4xl font-extrabold text-center mb-16">Mga Masasayang Entrepreneurs</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-lg relative pt-16">
+<div class="absolute -top-10 left-8 w-20 h-20 rounded-full border-4 border-surface-container-lowest overflow-hidden">
+<img alt="Sarah J." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK8-qFrIWEu1yObgm_68KlYxj85trr9OIDK7udBUzhBTqjtdcIR3vWE43qwR-Wn5DbBYdFAN15mPa6hZjGBiA2aZxCBA1mLAFun9mlwv263Jg3kLX78eArsetRaru3rX4YNOjw64iPBmlVm0NaoeEM-osBhpzHNuyHBfVbi2Xe3Hl3bxdrJRoGyopaa5v3Duvp8dlkWABVNnAyf0durx7AFKaB7shr_kjhMXXUq0T3DDSHoZFM_u1F6ETEfkibPB_jldJEy54P1Oc"/>
+</div>
+<p class="text-on-surface-variant italic mb-6 leading-relaxed">"Dati halos 6 hours ako nag-aanswer ng emails about shipping. Ngayon? Dashbord na lang ang chinecheck ko twice a week. Super game changer!"</p>
+<h4 class="font-headline font-black text-primary">Sarah J.</h4>
+<p class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Founder, PurePeptides</p>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-lg relative pt-16">
+<div class="absolute -top-10 left-8 w-20 h-20 rounded-full border-4 border-surface-container-lowest overflow-hidden">
+<img alt="Marcus L." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt4sohuZuHH3KoV3D0BoiJoDaAbNaSb5He7pBL2KPIInURFO3_7qh48o0HIBkpiIqlS0hwJClNd_5Ai9aehBIcYjGYVrt5j6qczRjRGBR6B159lh--Yi8HGRc0GWKKH3QWCCFbh3kNwj13WZNY0BjybdtI_DCkMAKFMHy6zlN4qMg9UXZrzoK763OVnWMIXGV_MU2cv28b6QkED4rq6yGa55RJpItN1UQo2jonPBE7L7dLrwKMNFwkPTA34XIycdPAY_6mwsCxFhs"/>
+</div>
+<p class="text-on-surface-variant italic mb-6 leading-relaxed">"Yung calculator at automated COA upload ang nagligtas sa negosyo ko. Tiwala ang mga customers dahil professional-looking ang platform."</p>
+<h4 class="font-headline font-black text-primary">Marcus L.</h4>
+<p class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">CEO, BioSynth Solutions</p>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-lg relative pt-16">
+<div class="absolute -top-10 left-8 w-20 h-20 rounded-full border-4 border-surface-container-lowest overflow-hidden">
+<img alt="Elena R." class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbej7_MUJVWfiLVeqnqhfHySoW5Lva29hPPmtqizHi4fVIOxlEPRMuUaZjO3r0pIRHUVyLPc0wsWLF9IgHdA4Sl-J78ol-ll0I0foEYy5ASKK-jLq0tVZ8U9aUCp4Fo5LITBNAlRTenNpgRpG7oSJ24bgjKp7ApylZv6JcdXkXgFHfpc2OXx_FADmLQD_QZuFki_BjYXrA2fVqlnatbTVl5EfcY0qOblu3vcC0Oly9YlJGVCFIsGX-iragmwDwckWrjDYCwmOPKvY"/>
+</div>
+<p class="text-on-surface-variant italic mb-6 leading-relaxed">"Mabilis, maganda, at high-converting. Nabawi ko agad ang investment ko in just 14 days after launch. Worth every penny talaga."</p>
+<h4 class="font-headline font-black text-primary">Elena R.</h4>
+<p class="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Director, Alpine Labs</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA (Taglish) -->
+<section class="py-32 px-6 text-center relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-secondary/10 -z-10"></div>
+<div class="max-w-4xl mx-auto">
+<h2 class="font-headline text-5xl md:text-7xl font-extrabold mb-8 leading-tight">Ready ka na bang Mag-Level Up?</h2>
+<p class="text-2xl text-on-surface-variant mb-12">Sumali sa 150+ sellers na nag-automate na ng kanilang destiny.</p>
+<div class="flex flex-col items-center gap-6">
+<button class="bg-primary text-on-primary px-16 py-8 rounded-lg text-2xl md:text-3xl font-headline font-black shadow-2xl shadow-orange-900/30 hover:scale-105 transition-all uppercase">
+                    KUNIN NA ANG SITE &amp; RECLAIM YOUR TIME
+                </button>
+<p class="flex items-center gap-2 text-on-surface-variant font-bold">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+                    Limited Slots na lang para sa Custom Deployment!
+                </p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-zinc-950 text-white font-body text-sm tracking-wide">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 py-12 gap-8">
+<div class="text-xl font-bold italic text-orange-500">
+            Peptide Automated Seller
+        </div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="text-zinc-400 hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="text-zinc-400 hover:text-white transition-colors" href="#">Terms of Service</a>
+<a class="text-zinc-400 hover:text-white transition-colors" href="#">Affiliates</a>
+<a class="text-zinc-400 hover:text-white transition-colors" href="#">Contact Support</a>
+</div>
+<div class="text-zinc-500 text-center md:text-right">
+            © 2024 Peptide Automated Seller. Built for Pinoy Entrepreneurs.
+        </div>
+</div>
+</footer>
+</body></html>
