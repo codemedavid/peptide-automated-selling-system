@@ -169,7 +169,7 @@ export default function Home() {
                 className="flex w-full flex-col items-center justify-center gap-1 rounded-lg bg-[#ec4899] px-8 py-6 text-white shadow-[0_10px_0_0_#9d174d] transition-all active:translate-y-1 active:shadow-none hover:-translate-y-0.5"
               >
                 <span className="flex items-center gap-2 text-xl font-black uppercase md:text-2xl">
-                  GET YOUR OWN WEBSITE FOR JUST ₱9,499 &#10140;
+                  GET YOUR OWN WEBSITE FOR JUST ₱9,899 &#10140;
                 </span>
                 <span className="text-xs font-bold opacity-90 md:text-sm">
                   Done-for-you · Ready in 7 Days · 100% Satisfaction Guarantee
@@ -505,7 +505,7 @@ export default function Home() {
                 You get EVERYTHING for just:
               </p>
               <p className="text-6xl font-black tracking-tight text-[#ec4899] md:text-8xl">
-                ₱9,499
+                ₱9,899
               </p>
               <p className="mt-2 text-sm font-bold text-zinc-500">
                 One-time lang. Walang monthly. Walang hidden fees.
@@ -687,7 +687,7 @@ export default function Home() {
                 className="flex w-full flex-col items-center justify-center gap-2 rounded-xl bg-[#ec4899] px-8 py-8 text-white shadow-[0_10px_0_0_#9d174d] transition-all hover:-translate-y-1 active:translate-y-1 active:shadow-none"
               >
                 <span className="flex items-center gap-2 text-xl font-black uppercase md:text-2xl">
-                  KUNIN ANG SYSTEM MO FOR JUST ₱9,499 &#10140;
+                  KUNIN ANG SYSTEM MO FOR JUST ₱9,899 &#10140;
                 </span>
                 <span className="text-sm font-bold opacity-90">
                   One-time payment. Custom-built para sa brand mo.

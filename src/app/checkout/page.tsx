@@ -23,7 +23,7 @@ const UPSELLS = [
   },
   {
     id: "email",
-    price: 5000,
+    price: 7000,
     title: "Automated Email Marketing",
     tag: "HIGH ROI",
     description:
@@ -228,7 +228,7 @@ export default function CheckoutPage() {
               {selectedUpsells.includes("email") && (
                 <div className="flex items-center justify-between text-zinc-300">
                   <span>+ Automated Email Marketing</span>
-                  <span className="font-bold">&#8369;5,000</span>
+                  <span className="font-bold">&#8369;7,000</span>
                 </div>
               )}
               <div className="border-t border-zinc-700 pt-3">

@@ -79,7 +79,7 @@ function buildWhatsAppURL(data: FunnelData): string {
     lines.push(`- + Professional Product Images: \u20B13,000`);
   }
   if (data.upsellEmail) {
-    lines.push(`- + Automated Email Marketing: \u20B15,000`);
+    lines.push(`- + Automated Email Marketing: \u20B17,000`);
   }
 
   lines.push(
@@ -202,7 +202,7 @@ export default function ThankYouPage() {
                       <span className="text-zinc-300">
                         + Automated Email Marketing
                       </span>
-                      <span className="font-bold">&#8369;5,000</span>
+                      <span className="font-bold">&#8369;7,000</span>
                     </div>
                   )}
                 </div>
